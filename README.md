@@ -4,6 +4,10 @@ This repo is my personal dotfiles.
 
 I use [Dotbot](https://github.com/anishathalye/dotbot).
 
+### Prerequisites
+
+You need to have `git` and `brew` installed
+
 ## Installation
 
 Clone to `~/.dotfiles`
@@ -24,16 +28,3 @@ One liner:
 ```sh
 git clone https://github.com/guysegal/dotfiles.git ~/.dotfiles && cd ~/.dotfiles && ./install
 ```
-
-### Prerequisites
-
-You will probably already have these, but if not
-
-```
-sudo apt-get install git python python-apt
-```
-
-## License
-
-This software is hereby released into the public domain. That means you can do
-whatever you want with it without restriction. See `LICENSE.md` for details.

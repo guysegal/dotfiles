@@ -1,6 +1,6 @@
 - shell:
     - [
-        'if [[ "$SHELL" != */zsh ]]; then chsh -s $(which zsh); fi',
+        'chsh -s /bin/zsh',
         Making zsh the default shell,
       ]
     - ["npm i -g uuid npm-check-updates np", Installing global node modules]
