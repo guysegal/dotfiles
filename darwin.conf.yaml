@@ -6,7 +6,7 @@
     - kubernetes-cli
     - kubectx
     - gh
-    - python3
+    - python@3.7
 
 - cask:
     - docker
