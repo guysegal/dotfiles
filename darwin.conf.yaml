@@ -5,9 +5,14 @@
     - nodejs
     - kubernetes-cli
     - kubectx
+    - kubens
+    - kube-ps1
     - gh
-    - python@3.7
     - yarn
+    - postgresql
+    - python@3.7
+    - pango
+    - helm
 
 - cask:
     - docker
@@ -19,8 +24,7 @@
     - fork
     - telegram-desktop
     - whatsapp
-    - microsoft-remote-desktop
     - robo-3t
-    - spotify
     - webstorm
     - pycharm
+    - google-cloud-sdk

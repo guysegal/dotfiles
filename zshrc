@@ -47,4 +47,14 @@ export NVM_DIR="$HOME/.nvm"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-export PATH="/usr/local/opt/python@3.7/bin:$PATH"
+export PATH="/usr/local/opt/python@3.7/bin:$PATH:/Users/guy.segal/confluent-cli/"
+
+export PIP_EXTRA_INDEX_URL=https://developer:fabric1234@getfabric.jfrog.io/artifactory/api/pypi/getfabric-pypi/simple
+
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
+source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+export PATH="$HOME/.poetry/bin:$PATH"
+
+source "/usr/local/opt/kube-ps1/share/kube-ps1.sh"
+PS1='$(kube_ps1)'$PS1
+
